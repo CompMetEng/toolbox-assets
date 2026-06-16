@@ -1,0 +1,34 @@
+RAVEN develop3 @ aa5e2c670f2f9cb7d040557974bb493a8ce0ba91
+RAVEN tag v2.10.5
+
+blast-2.17.0-linux-x86_64.zip  <-  software/blast+/blastp  @ aa5e2c670f2f9cb7d040557974bb493a8ce0ba91
+blast-2.17.0-linux-x86_64.zip  <-  software/blast+/makeblastdb  @ aa5e2c670f2f9cb7d040557974bb493a8ce0ba91
+blast-2.17.0-linux-x86_64.zip  <-  software/blast+/LICENSE  @ aa5e2c670f2f9cb7d040557974bb493a8ce0ba91
+
+blast-2.17.0-macos-arm64.zip  <-  software/blast+/blastp.mac  @ aa5e2c670f2f9cb7d040557974bb493a8ce0ba91
+blast-2.17.0-macos-arm64.zip  <-  software/blast+/makeblastdb.mac  @ aa5e2c670f2f9cb7d040557974bb493a8ce0ba91
+blast-2.17.0-macos-arm64.zip  <-  software/blast+/LICENSE  @ aa5e2c670f2f9cb7d040557974bb493a8ce0ba91
+
+blast-2.17.0-windows-x86_64.zip  <-  software/blast+/blastp.exe  @ aa5e2c670f2f9cb7d040557974bb493a8ce0ba91
+blast-2.17.0-windows-x86_64.zip  <-  software/blast+/makeblastdb.exe  @ aa5e2c670f2f9cb7d040557974bb493a8ce0ba91
+blast-2.17.0-windows-x86_64.zip  <-  software/blast+/nghttp2.dll  @ aa5e2c670f2f9cb7d040557974bb493a8ce0ba91
+blast-2.17.0-windows-x86_64.zip  <-  software/blast+/LICENSE  @ aa5e2c670f2f9cb7d040557974bb493a8ce0ba91
+
+diamond-2.1.17-linux-x86_64.zip  <-  software/diamond/diamond  @ aa5e2c670f2f9cb7d040557974bb493a8ce0ba91
+diamond-2.1.17-linux-x86_64.zip  <-  software/diamond/LICENSE  @ aa5e2c670f2f9cb7d040557974bb493a8ce0ba91
+
+diamond-2.1.17-macos-arm64.zip  <-  software/diamond/diamond.mac  @ aa5e2c670f2f9cb7d040557974bb493a8ce0ba91
+diamond-2.1.17-macos-arm64.zip  <-  software/diamond/LICENSE  @ aa5e2c670f2f9cb7d040557974bb493a8ce0ba91
+
+diamond-2.1.17-windows-x86_64.zip  <-  software/diamond/diamond.exe  @ aa5e2c670f2f9cb7d040557974bb493a8ce0ba91
+diamond-2.1.17-windows-x86_64.zip  <-  software/diamond/LICENSE  @ aa5e2c670f2f9cb7d040557974bb493a8ce0ba91
+
+hmmer-3.4.0-linux-x86_64.zip  <-  software/hmmer/hmmsearch  @ aa5e2c670f2f9cb7d040557974bb493a8ce0ba91
+hmmer-3.4.0-linux-x86_64.zip  <-  software/hmmer/LICENSE  @ aa5e2c670f2f9cb7d040557974bb493a8ce0ba91
+
+hmmer-3.4.0-macos-arm64.zip  <-  software/hmmer/hmmsearch.mac  @ aa5e2c670f2f9cb7d040557974bb493a8ce0ba91
+hmmer-3.4.0-macos-arm64.zip  <-  software/hmmer/LICENSE  @ aa5e2c670f2f9cb7d040557974bb493a8ce0ba91
+
+hmmer-3.3.2-windows-x86_64.zip  <-  software/hmmer/hmmsearch.exe  @ v2.10.5
+hmmer-3.3.2-windows-x86_64.zip  <-  software/hmmer/cygwin1.dll  @ v2.10.5
+hmmer-3.3.2-windows-x86_64.zip  <-  software/hmmer/LICENSE  @ v2.10.5
