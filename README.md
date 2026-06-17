@@ -20,6 +20,7 @@ one shared, versioned source of truth.
 |---|---|---|
 | **KEGG data** | `kegg118`, … | reference-model + tables (`*_core.tar.gz`), `*_taxonomy.gz`, prokaryote/eukaryote HMM libraries (`*.hmm.gz`) |
 | **Binaries** | `blast-<v>`, `diamond-<v>`, `hmmer-<v>` | per-platform ZIPs `<bundle>-<version>-<os>-<arch>.zip` (executables + license + any runtime DLL) |
+| **Localization** | `wolfpsort-<v>` | WoLFPSORT predictor bundle (RAVEN `getWoLFScores`); whole tree extracted into `software/WoLFPSORT/` |
 | **Manifest** | `manifest-v<N>` (+ [`manifest.json`](manifest.json) on `main`) | the index: every asset's URL + SHA256 + size |
 
 ## How the versioning works (no duplication)
