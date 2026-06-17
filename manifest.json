@@ -29,6 +29,19 @@
           "bytes": 228754
         }
       }
+    },
+    "wolfpsort": {
+      "version": "0.2",
+      "description": "WoLFPSORT subcellular-localization predictor (RAVEN getWoLFScores). Whole-tree bundle (perl + data + Linux i386 static binaries), extracted into software/WoLFPSORT/.",
+      "license": "WoLFPSORT (Horton et al.); see the LICENSE inside the bundle.",
+      "source": "https://github.com/SysBioChalmers/raven-data/releases/tag/wolfpsort-0.2",
+      "files": {
+        "wolfpsort-0.2.zip": {
+          "url": "https://github.com/SysBioChalmers/raven-data/releases/download/wolfpsort-0.2/wolfpsort-0.2.zip",
+          "sha256": "d37829b8c5c9128decbcf633dbde194d5ccdb9ae6ffde6c2089093f4c65161ce",
+          "bytes": 7848573
+        }
+      }
     }
   },
   "binaries": {
