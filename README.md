@@ -1,15 +1,20 @@
-# raven-data
+# toolbox-assets
 
 Downloadable **data artefacts and external-tool binaries** for
-[RAVEN](https://github.com/SysBioChalmers/RAVEN) (MATLAB) and
-[raven-toolbox](https://github.com/SysBioChalmers/raven-toolbox) (Python).
+[RAVEN](https://github.com/SysBioChalmers/RAVEN) (MATLAB),
+[raven-toolbox](https://github.com/SysBioChalmers/raven-toolbox) (Python),
+[GECKO](https://github.com/SysBioChalmers/GECKO) (MATLAB) and
+[geckopy](https://github.com/SysBioChalmers/geckopy) (Python).
 
 This repository hosts the large files those tools fetch on demand — KEGG reference
 data, prebuilt HMM libraries, and the BLAST+/DIAMOND/HMMER binaries — as **GitHub
 Release assets**, indexed by a single [`manifest.json`](manifest.json). Keeping them
 here (instead of attached to the code repositories) keeps the code releases clean,
-isolates the assets' upstream licenses, and gives both the MATLAB and Python tools
+isolates the assets' upstream licenses, and gives the MATLAB and Python tools
 one shared, versioned source of truth.
+
+It was `SysBioChalmers/raven-data` until October 2026; GitHub redirects the old
+URLs here.
 
 > The HMM libraries are ~135–155 MB each — past GitHub's 100 MB per-file git limit —
 > so they can only live as release assets, never committed into a repo's tree.
@@ -31,7 +36,7 @@ Windows), `kegg118`. An asset is uploaded **once** under its tag and **never
 re-uploaded**. When a tool bumps (say DIAMOND → 2.1.18) you publish a *new* tag
 `diamond-2.1.18` with only that tool's ZIPs; every other tag is untouched.
 
-There is **no single "raven-data version"**. The role of "a snapshot of the whole
+There is **no single "toolbox-assets version"**. The role of "a snapshot of the whole
 set" is played by **`manifest.json`** (tiny text), versioned as `manifest-v1`,
 `manifest-v2`, … — bumped only when the *pointer set* changes. The binaries
 themselves are stored once and merely re-referenced across manifest versions.
@@ -64,9 +69,9 @@ python scripts/build_binary_bundles.py        # -> dist/binaries/*.zip (from RAV
 python scripts/build_kegg_artefacts.py ...     # -> kegg<NNN>_*.{tar.gz,hmm.gz,gz}
 
 # upload to this repo's releases (idempotent; skips assets already present):
-python scripts/publish_to_raven_data.py binaries --dir dist/binaries
-python scripts/publish_to_raven_data.py release --tag kegg118 --dir <kegg dir>
-python scripts/publish_to_raven_data.py release --tag manifest-v1 data/manifest.json
+python scripts/publish_to_toolbox_assets.py binaries --dir dist/binaries
+python scripts/publish_to_toolbox_assets.py release --tag kegg118 --dir <kegg dir>
+python scripts/publish_to_toolbox_assets.py release --tag manifest-v1 data/manifest.json
 ```
 
 See `docs/maintenance/maintaining_binaries.md` and `maintaining_kegg_data.md` in
