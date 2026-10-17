@@ -69,6 +69,49 @@
           "bytes": 1231364
         }
       }
+    },
+    "brenda": {
+      "version": "brenda-2026.1-1",
+      "description": "BRENDA 2026.1 for GECKO and geckopy: kcat, specific activity and molecular weight per EC number, substrate and organism; wild-type kcat measurements after the outlier screen; their sequences and substrates; combination parameters.",
+      "license": "CC BY 4.0 (BRENDA, https://www.brenda-enzymes.org); converted, grouped and screened.",
+      "source": "https://github.com/CompMetEng/toolbox-assets/releases/tag/brenda-2026.1-1",
+      "files": {
+        "kcat.tsv.gz": {
+          "url": "https://github.com/CompMetEng/toolbox-assets/releases/download/brenda-2026.1-1/kcat.tsv.gz",
+          "sha256": "a6f448f81cb9bc62c829bbfb8043ec7e873ce58e70362e9bc3b94d0a1f01bbda",
+          "bytes": 638914
+        },
+        "kcatCombineParams.tsv": {
+          "url": "https://github.com/CompMetEng/toolbox-assets/releases/download/brenda-2026.1-1/kcatCombineParams.tsv",
+          "sha256": "11fa0cdd3dd81feb70a3db0aa321b5140dd6551a666ed1c2672f3317cc889431",
+          "bytes": 2713
+        },
+        "measurements.tsv.gz": {
+          "url": "https://github.com/CompMetEng/toolbox-assets/releases/download/brenda-2026.1-1/measurements.tsv.gz",
+          "sha256": "88bc0d7ead734f04c69e51c5a105660037146ec73c85dc12f5d5ca74bf9ba31a",
+          "bytes": 1032524
+        },
+        "mw.tsv.gz": {
+          "url": "https://github.com/CompMetEng/toolbox-assets/releases/download/brenda-2026.1-1/mw.tsv.gz",
+          "sha256": "99b6cacdf28d36826986fe0de578306b39ebb58f504afb7d9af1268218bf7c61",
+          "bytes": 476888
+        },
+        "sa.tsv.gz": {
+          "url": "https://github.com/CompMetEng/toolbox-assets/releases/download/brenda-2026.1-1/sa.tsv.gz",
+          "sha256": "e93bc0991e1fd817fd213a8ef507cf8d56bc58429beb8ff7a4e0c600e73acbc4",
+          "bytes": 340854
+        },
+        "sequences.fasta.gz": {
+          "url": "https://github.com/CompMetEng/toolbox-assets/releases/download/brenda-2026.1-1/sequences.fasta.gz",
+          "sha256": "3be2bf96068a2f05dbf791f2ca56dca1b083b8e19316cb475edd5d910a7fdc9d",
+          "bytes": 1824788
+        },
+        "substrates.tsv.gz": {
+          "url": "https://github.com/CompMetEng/toolbox-assets/releases/download/brenda-2026.1-1/substrates.tsv.gz",
+          "sha256": "bbd672ad55978dc01d5c3b66fd5461d67e55336dfb088e3f1b3445d4dcf8818f",
+          "bytes": 671349
+        }
+      }
     }
   },
   "binaries": {
