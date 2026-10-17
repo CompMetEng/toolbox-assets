@@ -1,10 +1,10 @@
 # toolbox-assets
 
 Downloadable **data artefacts and external-tool binaries** for
-[RAVEN](https://github.com/SysBioChalmers/RAVEN) (MATLAB),
-[raven-toolbox](https://github.com/SysBioChalmers/raven-toolbox) (Python),
-[GECKO](https://github.com/SysBioChalmers/GECKO) (MATLAB) and
-[geckopy](https://github.com/SysBioChalmers/geckopy) (Python).
+[RAVEN](https://github.com/CompMetEng/RAVEN) (MATLAB),
+[raven-toolbox](https://github.com/CompMetEng/raven-toolbox) (Python),
+[GECKO](https://github.com/CompMetEng/GECKO) (MATLAB) and
+[geckopy](https://github.com/CompMetEng/geckopy) (Python).
 
 This repository hosts the large files those tools fetch on demand — KEGG reference
 data, prebuilt HMM libraries, and the BLAST+/DIAMOND/HMMER binaries — as **GitHub
