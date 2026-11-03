@@ -16,7 +16,7 @@ one shared, versioned source of truth.
 It was `SysBioChalmers/raven-data` until October 2026; GitHub redirects the old
 URLs here.
 
-> The HMM libraries are ~135–155 MB each — past GitHub's 100 MB per-file git limit —
+> The HMM libraries are ~140–160 MB each — past GitHub's 100 MB per-file git limit —
 > so they can only live as release assets, never committed into a repo's tree.
 
 ## What's here
@@ -25,7 +25,6 @@ URLs here.
 |---|---|---|
 | **KEGG data** | `kegg118`, … | reference-model + tables (`*_core.tar.gz`), `*_taxonomy.gz`, prokaryote/eukaryote HMM libraries (`*.hmm.gz`) |
 | **Binaries** | `blast-<v>`, `diamond-<v>`, `hmmer-<v>` | per-platform ZIPs `<bundle>-<version>-<os>-<arch>.zip` (executables + license + any runtime DLL) |
-| **Localization** | `wolfpsort-<v>` | WoLFPSORT predictor bundle (RAVEN `getWoLFScores`); whole tree extracted into `software/WoLFPSORT/` |
 | **Transporters** | `transporters-<date>` | transporter Pfam HMMs and the TCDB DIAMOND database, with TCDB substrates and ChEBI relations (raven-toolbox) |
 | **BRENDA** | `brenda-<release>-<build>` | kcat, specific activity and molecular weight tables, screened kcat measurements with sequences and substrates, and combination parameters (GECKO, geckopy); `<build>` counts rebuilds from the same BRENDA release |
 | **Manifest** | `manifest-v<N>` (+ [`manifest.json`](manifest.json) on `main`) | the index: every asset's URL + SHA256 + size |
